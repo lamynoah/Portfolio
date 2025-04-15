@@ -1,0 +1,110 @@
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #111;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #003366; /* Bleu foncé pour bon contraste */
+  }
+  
+  form {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #003366;
+  }
+  
+  .form-group,
+  .radio-group,
+  .checkbox-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  .aide {
+    font-size: 0.875rem;
+    color: #555;
+  }
+  
+  button {
+    background-color: #0055aa;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover,
+  button:focus {
+    background-color: #003f88;
+    outline: 2px solid #003f88;
+    outline-offset: 2px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .form-group,
+    .radio-group,
+    .checkbox-group {
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  /* Accessibilité : focus visible */
+  input:focus,
+  select:focus,
+  button:focus {
+    outline: 3px solid #ff9900;
+    outline-offset: 2px;
+  }
+  
